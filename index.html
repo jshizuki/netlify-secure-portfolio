@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Secure Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Secure Portfolio</h1>
+      <p>Showcasing my work with privacy and security.</p>
+    </header>
+    <section id="about">
+      <h2 class="environment">This is a development site</h2>
+      <h2>About Me</h2>
+      <p>
+        Welcome to my secure portfolio. As a developer passionate about
+        cybersecurity and privacy, I ensure my projects are built with security
+        in mind.
+      </p>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li>
+          🔒 Encrypted File Manager - A tool to securely store and manage files.
+        </li>
+        <li>
+          🔒 Secure Notes App - A privacy-focused notes application with
+          encryption.
+        </li>
+        <li>
+          🔒 Private Chat Application - End-to-end encrypted messaging platform.
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <button id="toggleTheme">Toggle Dark Mode</button>
+    <footer>
+      <p>&copy; 2025 My Secure Portfolio | Privacy First</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
